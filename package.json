@@ -1,0 +1,11 @@
+{
+  "name": "ai-technical-debt-inspector",
+  "version": "1.0.0",
+  "description": "AI Technical Debt Inspector - Automated Code Quality & Refactoring System",
+  "scripts": {
+    "dev": "npm --prefix client run dev",
+    "client": "npm --prefix client run dev",
+    "server": "node server/src/index.js"
+  }
+}
+

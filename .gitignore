@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Environment variables & secrets (Never commit secrets to git)
+.env
+.env.local
+.env.*.local
+*.env
+client/.env
+server/.env
+
+# Production build outputs
+dist/
+dist-ssr/
+build/
+client/dist/
+
+# SQLite databases & runtime data
+*.db
+*.sqlite
+*.sqlite3
+server/data/*.db
+server/data/*.json
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Editor & OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
